@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20180225190750) do
     t.string   "town_city"
     t.string   "country"
     t.string   "image"
-    t.boolean  "is_store"
+    # t.boolean  "is_store"
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
   end
