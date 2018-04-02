@@ -5,7 +5,8 @@ class UsersController < ApplicationController
 
   # GET /users
   def index
-    @users = User.all
+    # @users = User.all
+    @users = User.where(user_params)
 
     render json: @users
   end

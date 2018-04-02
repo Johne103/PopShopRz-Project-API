@@ -23,6 +23,6 @@ class AuthController < ApplicationController
 
   private
       def user_params
-        params.permit(:username, :email, :first_name, :last_name, :password, :password_confirmation, is_store)
+        params.permit(:username, :email, :first_name, :last_name, :password, :password_confirmation, :is_store)
       end
 end

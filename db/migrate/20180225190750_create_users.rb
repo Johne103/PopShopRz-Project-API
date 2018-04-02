@@ -14,7 +14,7 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :town_city
       t.string :country
       t.string :image
-      # t.boolean :is_store
+      t.boolean :is_store
 
       t.timestamps
     end
